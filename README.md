@@ -1,0 +1,1 @@
+Esta IA de nutricion tiene un chat en el que dices lo que has comido ese dia, lo descompone en ingredientes, y suma las calorias consumidas ese dia. Ademas de los macronutrientes, y lo pone todo en graficas para facil visualizacion. Está pendiente de finalizar y arreglar un par de problemas que tiene
