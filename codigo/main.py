@@ -1,4 +1,3 @@
-# main.py
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from modules.food_manager import FoodManager
@@ -18,7 +17,7 @@ class App(QMainWindow):
 
         # Inicializar módulos
         self.food_manager = FoodManager()
-        self.chatbot = ChatBot()
+        self.chatbot = Chatbot()
         self.visualization = Visualization()
 
         # Actualizar modo de la interfaz según configuración
@@ -26,7 +25,7 @@ class App(QMainWindow):
 
     def update_interface_mode(self):
         """Actualiza el modo de la interfaz según la configuración."""
-        if self.settings.settings["mode"] == "Oscuro":
+        if self.settings.mode == "Oscuro":
             self.setStyleSheet("background-color: black; color: white;")
         else:
             self.setStyleSheet("background-color: white; color: black;")
