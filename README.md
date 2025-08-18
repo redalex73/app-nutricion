@@ -25,5 +25,5 @@ Aplicación de escritorio para seguimiento de nutrición, ejercicio y progreso f
 - Python 3.10+  
 - Librerías:
   ```bash
-  pip install customtkinter requests pillow matplotlib
+  pip install customtkinter requests matplotlib
 
